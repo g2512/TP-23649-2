@@ -29,10 +29,10 @@ public class User {
     @Column (name = "dni")
     private String dni;
 
-    @Column (name = "Creado el")
+    @Column (name = "Creado_el")
     private String createdAt;
 
-    @Column (name = "Modificado el")
+    @Column (name = "Modificado_el")
     private String updatedAt;
 
 }
