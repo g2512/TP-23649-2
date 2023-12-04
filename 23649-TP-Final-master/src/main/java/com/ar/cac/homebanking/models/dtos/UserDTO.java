@@ -22,4 +22,8 @@ public class UserDTO {
 
     private String dni;
 
+    private String createdAt;
+
+    private String updatedAt;
+
 }

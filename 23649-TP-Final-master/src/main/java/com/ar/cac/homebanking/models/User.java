@@ -26,6 +26,13 @@ public class User {
     @Column(name = "apellido")
     private String surname;
 
+    @Column (name = "dni")
     private String dni;
+
+    @Column (name = "Creado el")
+    private String createdAt;
+
+    @Column (name = "Modificado el")
+    private String updatedAt;
 
 }
